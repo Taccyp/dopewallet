@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @card.number %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @card.brand %>
+</p>
+
+<p>
+	Expires: <%= "#{@card.exp_month}/#{@card.exp_year}" %>
+</p>
+<%= link_to 'Back', cards_path %>

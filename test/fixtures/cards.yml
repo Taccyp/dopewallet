@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 
+  brand: MyString
+  exp_month: 
+  exp_year: 
+
+two:
+  number: 
+  brand: MyString
+  exp_month: 
+  exp_year: 
